@@ -192,7 +192,8 @@ Você prefere comida mais *leve 🥗* ou *pesada 🍔*?
   // 🧠 DEFINIR PERFIL
   if (usuario.estado === "definindo_perfil") {
 
-    if (textoNormalizado.includes("leve")) {
+    if (textoNormalizado.includes("leve")) {cd /workspaces/apetiti-system
+
       usuario.perfil = "leve";
     } else if (textoNormalizado.includes("pesad")) {
       usuario.perfil = "pesado";
